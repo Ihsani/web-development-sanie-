@@ -1,16 +1,28 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" MasterPageFile="~/MasterPage.master"%>
 
-<!DOCTYPE html>
+<asp:Content ID="default" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div id="mainpage">
+ 
+        <div>
+        <h1>Bounce Houses</h1>
+        <img src="images/bouncers/bouncehouse.jpg" alt="bouncehouse" />
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
+        </div>
+
+        <div>
+        <h1>Bounce Houses with slide</h1>
+        <img src="images/bouncers/withslide.jpg" alt="bouncehouse" />
+
+        </div>
+
+        <div>
+        <h1>Wet and Dry</h1>
+        <img src="images/bouncers/wetanddry.jpg" alt="bouncehouse" />
+
+        </div>
+ 
+
+
     </div>
-    </form>
-</body>
-</html>
+  
+</asp:Content>
