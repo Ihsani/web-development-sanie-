@@ -1,2 +1,164 @@
 ﻿body {
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin:0px;
+ background-color:#ac161f;
+}
+
+#container {
+
+
+}
+
+    #container #header {
+       
+        height:150px;
+        background-color:#ac161f;
+        background-image:url("../images/header.png");
+        background-repeat:no-repeat;
+        text-align:center;
+        color:white;
+      
+    }
+#header h1 {
+margin-top:10px;
+margin-bottom:0px;
+font-size:3em;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header h3 {
+margin:0;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style:italic;
+}
+
+        #container #header img {
+        border-radius:10px;
+        margin-left:10px;
+        margin-top:10px;
+        
+        }
+
+
+    #container #content {
+      
+       padding:15px;
+       background-color:white;
+       background-image:url("../images/bg.jpg");
+       height:auto;
+    
+    }
+
+#mainpage {
+height:400px;
+}
+
+       #mainpage div {
+        float:right;    
+        border:5px dashed #ac161f;;
+        width:30%;
+        margin:10px;
+        text-align:center;
+        border-radius:10px;
+        padding:10px;
+        background-color:white;
+        opacity:.8;
+         }
+
+#mainpage img {
+     width:350px;
+     height:300px;
+     border-radius:10px;
+
+}
+#mainpage h1 {
+
+margin:0px;
+}
+
+    #container #footer {
+    background-color:#ac161f;
+    color:white;
+    padding:10px;
+    margin-bottom:-50px;
+    clear:both;
+  
+    }
+
+        #container #footer div {
+        width:30%;
+        float:right;
+        margin-top:0px;
+          height:50px;
+        }
+
+        #container #footer img {
+        
+        width:50px;
+        height:50px;
+        margin:2px;
+        }
+
+        #footer a{
+            color:white;
+            text-decoration:none;
+
+        }
+#footer p {
+    margin:0px;
+    line-height:16px;
+}
+#footer ul li {
+margin:0px;
+line-height:18px;
+}
+#contact {
+
+height:400px;
+padding:0px;
+margin:0px;
+}
+
+    #contact #map {
+   width:50%;
+   height:400px;
+   margin:0px;
+   float:right;
+   background-image:url("../images/map1.png");
+
+     }
+    #contact #form {
+    background-color:white;
+    width:45%;
+    height:380px;
+    float:left;
+    padding:15px;
+    border:1px solid #808080;
+    border-radius:10px;
+    
+    }
+        #contact #form table {
+        width:100%;
+        
+        }
+            #contact #form table caption {
+            
+            font-size:2em;
+            }
+            #contact #form table input[type=text],#form table textarea {
+            
+                font-size:1.2em;
+                border-radius:5px;
+                border:2px inset #808080;
+                background-color:#f5d8d8;
+            
+            }
+#form table input[type=submit],#form table input[type=reset] {
+              color:white;
+              border:2px solid #ac161f;
+              padding:10px;
+              border-radius:10px;
+              background-color:#ac161f;
+
+
 }
