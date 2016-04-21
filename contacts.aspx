@@ -48,7 +48,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
             <caption>Contact Us</caption>
             <tr>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtname" ErrorMessage="Name is required" Font-Italic="True" Font-Size="0.9em" ForeColor="Red"></asp:RequiredFieldValidator>
+                </td>
             </tr>
 
             <tr>
@@ -60,19 +62,23 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
             <tr>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtemail" ErrorMessage="Please input a valid email" Font-Italic="True" Font-Size="0.9em" ForeColor="Red"></asp:RequiredFieldValidator>
+                </td>
             </tr>
 
             <tr>
                 <td>Email:</td>
                 <td>
-                    <asp:TextBox ID="txtemail" runat="server" Width="276px"></asp:TextBox>
+                    <asp:TextBox ID="txtemail" runat="server" Width="276px" TextMode="Email"></asp:TextBox>
                 </td>
             </tr>
 
             <tr>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtaddress" ErrorMessage="Please input a message" Font-Italic="True" Font-Size="0.9em" ForeColor="Red"></asp:RequiredFieldValidator>
+                </td>
             </tr>
 
             <tr>

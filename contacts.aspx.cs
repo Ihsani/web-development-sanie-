@@ -11,4 +11,9 @@ public partial class contacts : System.Web.UI.Page
     {
 
     }
+
+    protected void btnsend_Click(object sender, EventArgs e)
+    {
+
+    }
 }
